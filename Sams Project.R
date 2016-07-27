@@ -1,4 +1,4 @@
- Sam's GuassView Analyzer Program
+# Sam's GuassView Analyzer Program
 # Version 1.0.0.3
 # By Nicholas Ruha & Nicholas Zehm
 # 6/16/16
