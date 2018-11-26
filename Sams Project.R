@@ -17,9 +17,9 @@ ProcessFiles <-function() { # Read in multiple files
 }
 nameFile <- files[1]
 
-# 'Cu_NCP_tpssh_td.out'
-#GaussMatrix <- function(nameFile) { #Process the data
-    #regex scan for 'Excited state'
+# Demo file name = 'Cu_NCP_tpssh_td.out'
+GaussMatrix <- function(nameFile) { #Process the data
+    #regex scan for 'Excited state' from file
     temp = grep("Excited State ", readLines(nameFile, n=-1)) 
     #import whole txt file
     yaas<-read.delim(nameFile, blank.lines.skip = FALSE)
