@@ -41,4 +41,4 @@ GaussMatrix <- function(nameFile) { #Process the data
     rownames(m) <-c(1:60)
     colnames(m) <-c('eV', 'nm', 'f=')
     write(m, file = paste(as.character(nameFile),'.csv', sep=''), sep =",")
-#}
+}
